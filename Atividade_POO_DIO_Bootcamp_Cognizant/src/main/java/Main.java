@@ -26,7 +26,7 @@ public class Main {
 
 //        accountCC.withdraw(100.0);
 
-        accountCC.transfer(10.0, accountCP);
+        accountCC.withdraw(10.0);
         System.out.println(accountCC);
 
         System.out.println(accountCP);
